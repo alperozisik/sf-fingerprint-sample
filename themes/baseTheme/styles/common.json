@@ -1,0 +1,30 @@
+{
+	".formItem": {
+		"height": null,
+		"marginTop": null,
+		"marginBottom": null,
+		"flexProps": {
+			"flexGrow": 1
+		}
+	},
+	".formRow": {
+		"height": 40,
+		"flexProps": {
+			"flexDirection": "ROW"
+		},
+		"marginBottom": 2.5,
+		"marginTop": 2.5
+	},
+	".wait": {
+		"&-main": {
+			"left": null,
+			"top": null,
+			"flexProps": {
+				"justifyContent": "CENTER",
+				"alignItems": "CENTER",
+				"positionType": "RELATIVE",
+				"flexGrow": 1
+			}
+		}
+	}
+}

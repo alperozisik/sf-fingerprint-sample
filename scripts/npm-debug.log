@@ -1,0 +1,300 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v6.9.2/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v6.9.2/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '-S',
+1 verbose cli   'final-form' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData final-form
+8 silly fetchNamedPackageData final-form
+9 silly mapToRegistry name final-form
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://cd.smartface.io/nexus/content/groups/npm-all-public
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'final-form',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'final-form',
+12 silly mapToRegistry   name: 'final-form',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form
+14 verbose request uri http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 4:26:33 PM
+17 verbose request id 52f0a4f7b9ab1870
+18 http request GET http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form
+19 http 200 http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form
+20 verbose headers { 'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Sun, 10 Mar 2019 16:26:34 GMT',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   server: 'Microsoft-IIS/10.0',
+20 verbose headers   'x-frame-options': 'SAMEORIGIN',
+20 verbose headers   'x-content-type-options': 'nosniff',
+20 verbose headers   'x-powered-by': 'ARR/3.0, ASP.NET',
+20 verbose headers   date: 'Sun, 10 Mar 2019 16:26:34 GMT',
+20 verbose headers   'content-length': '196152' }
+21 silly get cb [ 200,
+21 silly get   { 'content-type': 'application/json',
+21 silly get     'last-modified': 'Sun, 10 Mar 2019 16:26:34 GMT',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     server: 'Microsoft-IIS/10.0',
+21 silly get     'x-frame-options': 'SAMEORIGIN',
+21 silly get     'x-content-type-options': 'nosniff',
+21 silly get     'x-powered-by': 'ARR/3.0, ASP.NET',
+21 silly get     date: 'Sun, 10 Mar 2019 16:26:34 GMT',
+21 silly get     'content-length': '196152' } ]
+22 verbose get saving final-form to /home/ubuntu/workspace/.npm/cd.smartface.io/nexus/content/groups/npm-all-public/final-form/.cache.json
+23 verbose correctMkdir /home/ubuntu/workspace/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule final-form@4.12.0 checking installable status
+37 silly cache add args [ 'final-form', null ]
+38 verbose cache add spec final-form
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'final-form',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'final-form',
+39 silly cache add   name: 'final-form',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed final-form@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for final-form
+42 info addNameTag [ 'final-form', 'latest' ]
+43 silly mapToRegistry name final-form
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry http://cd.smartface.io/nexus/content/groups/npm-all-public
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'final-form',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'final-form',
+46 silly mapToRegistry   name: 'final-form',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form
+48 verbose addNameTag registry:http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form not in flight; fetching
+49 verbose get http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form not expired, no request
+50 silly addNameTag next cb for final-form with tag latest
+51 silly addNamed final-form@4.12.0
+52 verbose addNamed "4.12.0" is a plain semver version for final-form
+53 silly mapToRegistry name final-form
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry http://cd.smartface.io/nexus/content/groups/npm-all-public
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'final-form',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'final-form',
+56 silly mapToRegistry   name: 'final-form',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form
+58 verbose addRemoteTarball http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form/-/final-form-4.12.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form/-/final-form-4.12.0.tgz',
+59 verbose addRemoteTarball   '1844e2a3bc9789d51115c76a94d0ea6a19e219c0' ]
+60 info retry fetch attempt 1 at 4:26:34 PM
+61 info attempt registry request try #1 at 4:26:34 PM
+62 http fetch GET http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form/-/final-form-4.12.0.tgz
+63 http fetch 200 http://cd.smartface.io/nexus/content/groups/npm-all-public/final-form/-/final-form-4.12.0.tgz
+64 silly fetchAndShaCheck shasum 1844e2a3bc9789d51115c76a94d0ea6a19e219c0
+65 verbose addTmpTarball /tmp/npm-9879-2c251172/cd.smartface.io/nexus/content/groups/npm-all-public/final-form/-/final-form-4.12.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for final-form@4.12.0
+67 verbose correctMkdir /home/ubuntu/workspace/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd final-form@4.12.0
+69 verbose afterAdd /home/ubuntu/workspace/.npm/final-form/4.12.0/package/package.json not in flight; writing
+70 verbose correctMkdir /home/ubuntu/workspace/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /home/ubuntu/workspace/.npm/final-form/4.12.0/package/package.json written
+72 silly fetchNamedPackageData @babel/runtime
+73 silly mapToRegistry name @babel/runtime
+74 silly mapToRegistry scope (from package name) @babel
+75 verbose mapToRegistry no registry URL found in name for scope @babel
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry http://cd.smartface.io/nexus/content/groups/npm-all-public
+78 silly mapToRegistry data Result {
+78 silly mapToRegistry   raw: '@babel/runtime',
+78 silly mapToRegistry   scope: '@babel',
+78 silly mapToRegistry   escapedName: '@babel%2fruntime',
+78 silly mapToRegistry   name: '@babel/runtime',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri http://cd.smartface.io/nexus/content/groups/npm-all-public/@babel%2fruntime
+80 verbose request uri http://cd.smartface.io/nexus/content/groups/npm-all-public/@babel%2fruntime
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 4:26:35 PM
+83 http request GET http://cd.smartface.io/nexus/content/groups/npm-all-public/@babel%2fruntime
+84 http 200 http://cd.smartface.io/nexus/content/groups/npm-all-public/@babel%2fruntime
+85 verbose headers { 'content-type': 'application/json',
+85 verbose headers   'last-modified': 'Sun, 10 Mar 2019 16:26:35 GMT',
+85 verbose headers   'accept-ranges': 'bytes',
+85 verbose headers   server: 'Microsoft-IIS/10.0',
+85 verbose headers   'x-frame-options': 'SAMEORIGIN',
+85 verbose headers   'x-content-type-options': 'nosniff',
+85 verbose headers   'x-powered-by': 'ARR/3.0, ASP.NET',
+85 verbose headers   date: 'Sun, 10 Mar 2019 16:26:35 GMT',
+85 verbose headers   'content-length': '85010' }
+86 silly get cb [ 200,
+86 silly get   { 'content-type': 'application/json',
+86 silly get     'last-modified': 'Sun, 10 Mar 2019 16:26:35 GMT',
+86 silly get     'accept-ranges': 'bytes',
+86 silly get     server: 'Microsoft-IIS/10.0',
+86 silly get     'x-frame-options': 'SAMEORIGIN',
+86 silly get     'x-content-type-options': 'nosniff',
+86 silly get     'x-powered-by': 'ARR/3.0, ASP.NET',
+86 silly get     date: 'Sun, 10 Mar 2019 16:26:35 GMT',
+86 silly get     'content-length': '85010' } ]
+87 verbose get saving @babel/runtime to /home/ubuntu/workspace/.npm/cd.smartface.io/nexus/content/groups/npm-all-public/_40babel_252fruntime/.cache.json
+88 verbose correctMkdir /home/ubuntu/workspace/.npm correctMkdir not in flight; initializing
+89 silly resolveWithNewModule @babel/runtime@7.3.4 checking installable status
+90 silly cache add args [ '@babel/runtime@^7.3.1', null ]
+91 verbose cache add spec @babel/runtime@^7.3.1
+92 silly cache add parsed spec Result {
+92 silly cache add   raw: '@babel/runtime@^7.3.1',
+92 silly cache add   scope: '@babel',
+92 silly cache add   escapedName: '@babel%2fruntime',
+92 silly cache add   name: '@babel/runtime',
+92 silly cache add   rawSpec: '^7.3.1',
+92 silly cache add   spec: '>=7.3.1 <8.0.0',
+92 silly cache add   type: 'range' }
+93 silly addNamed @babel/runtime@>=7.3.1 <8.0.0
+94 verbose addNamed ">=7.3.1 <8.0.0" is a valid semver range for @babel/runtime
+95 silly addNameRange { name: '@babel/runtime',
+95 silly addNameRange   range: '>=7.3.1 <8.0.0',
+95 silly addNameRange   hasData: false }
+96 silly mapToRegistry name @babel/runtime
+97 silly mapToRegistry scope (from package name) @babel
+98 verbose mapToRegistry no registry URL found in name for scope @babel
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry http://cd.smartface.io/nexus/content/groups/npm-all-public
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: '@babel/runtime',
+101 silly mapToRegistry   scope: '@babel',
+101 silly mapToRegistry   escapedName: '@babel%2fruntime',
+101 silly mapToRegistry   name: '@babel/runtime',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri http://cd.smartface.io/nexus/content/groups/npm-all-public/@babel%2fruntime
+103 verbose addNameRange registry:http://cd.smartface.io/nexus/content/groups/npm-all-public/@babel%2fruntime not in flight; fetching
+104 verbose get http://cd.smartface.io/nexus/content/groups/npm-all-public/@babel%2fruntime not expired, no request
+105 silly addNameRange number 2 { name: '@babel/runtime',
+105 silly addNameRange   range: '>=7.3.1 <8.0.0',
+105 silly addNameRange   hasData: true }
+106 silly addNameRange versions [ '@babel/runtime',
+106 silly addNameRange   [ '7.0.0-beta.4',
+106 silly addNameRange     '7.0.0-beta.5',
+106 silly addNameRange     '7.0.0-beta.31',
+106 silly addNameRange     '7.0.0-beta.32',
+106 silly addNameRange     '7.0.0-beta.33',
+106 silly addNameRange     '7.0.0-beta.34',
+106 silly addNameRange     '7.0.0-beta.35',
+106 silly addNameRange     '7.0.0-beta.36',
+106 silly addNameRange     '7.0.0-beta.37',
+106 silly addNameRange     '7.0.0-beta.38',
+106 silly addNameRange     '7.0.0-beta.39',
+106 silly addNameRange     '7.0.0-beta.40',
+106 silly addNameRange     '7.0.0-beta.41',
+106 silly addNameRange     '7.0.0-beta.42',
+106 silly addNameRange     '7.0.0-beta.43',
+106 silly addNameRange     '7.0.0-beta.44',
+106 silly addNameRange     '7.0.0-beta.45',
+106 silly addNameRange     '7.0.0-beta.46',
+106 silly addNameRange     '7.0.0-beta.47',
+106 silly addNameRange     '7.0.0-beta.48',
+106 silly addNameRange     '7.0.0-beta.49',
+106 silly addNameRange     '7.0.0-beta.50',
+106 silly addNameRange     '7.0.0-beta.51',
+106 silly addNameRange     '7.0.0-beta.52',
+106 silly addNameRange     '7.0.0-beta.53',
+106 silly addNameRange     '7.0.0-beta.54',
+106 silly addNameRange     '7.0.0-beta.55',
+106 silly addNameRange     '7.0.0-beta.56',
+106 silly addNameRange     '7.0.0-rc.0',
+106 silly addNameRange     '7.0.0-rc.1',
+106 silly addNameRange     '7.0.0-rc.2',
+106 silly addNameRange     '7.0.0-rc.3',
+106 silly addNameRange     '7.0.0-rc.4',
+106 silly addNameRange     '7.0.0',
+106 silly addNameRange     '7.1.1',
+106 silly addNameRange     '7.1.2',
+106 silly addNameRange     '7.1.5',
+106 silly addNameRange     '7.2.0',
+106 silly addNameRange     '7.3.0',
+106 silly addNameRange     '7.3.1',
+106 silly addNameRange     '7.3.4' ] ]
+107 silly addNamed @babel/runtime@7.3.4
+108 verbose addNamed "7.3.4" is a plain semver version for @babel/runtime
+109 silly mapToRegistry name @babel/runtime
+110 silly mapToRegistry scope (from package name) @babel
+111 verbose mapToRegistry no registry URL found in name for scope @babel
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry http://cd.smartface.io/nexus/content/groups/npm-all-public
+114 silly mapToRegistry data Result {
+114 silly mapToRegistry   raw: '@babel/runtime',
+114 silly mapToRegistry   scope: '@babel',
+114 silly mapToRegistry   escapedName: '@babel%2fruntime',
+114 silly mapToRegistry   name: '@babel/runtime',
+114 silly mapToRegistry   rawSpec: '',
+114 silly mapToRegistry   spec: 'latest',
+114 silly mapToRegistry   type: 'tag' }
+115 silly mapToRegistry uri http://cd.smartface.io/nexus/content/groups/npm-all-public/@babel%2fruntime
+116 verbose addRemoteTarball http://cd.smartface.io/nexus/content/repositories/npmjs/@babel/runtime/-/runtime-7.3.4.tgz not in flight; adding
+117 verbose addRemoteTarball [ 'http://cd.smartface.io/nexus/content/repositories/npmjs/@babel/runtime/-/runtime-7.3.4.tgz',
+117 verbose addRemoteTarball   '73d12ba819e365fcf7fd152aed56d6df97d21c83' ]
+118 info retry fetch attempt 1 at 4:26:35 PM
+119 info attempt registry request try #1 at 4:26:35 PM
+120 http fetch GET http://cd.smartface.io/nexus/content/repositories/npmjs/@babel/runtime/-/runtime-7.3.4.tgz
+121 http fetch 404 http://cd.smartface.io/nexus/content/repositories/npmjs/@babel/runtime/-/runtime-7.3.4.tgz
+122 error fetch failed http://cd.smartface.io/nexus/content/repositories/npmjs/@babel/runtime/-/runtime-7.3.4.tgz
+123 warn retry will retry, error on last attempt: Error: fetch failed with status code 404
+124 info retry fetch attempt 2 at 4:26:45 PM
+125 info attempt registry request try #1 at 4:26:45 PM
+126 http fetch GET http://cd.smartface.io/nexus/content/repositories/npmjs/@babel/runtime/-/runtime-7.3.4.tgz
+127 http fetch 404 http://cd.smartface.io/nexus/content/repositories/npmjs/@babel/runtime/-/runtime-7.3.4.tgz
+128 error fetch failed http://cd.smartface.io/nexus/content/repositories/npmjs/@babel/runtime/-/runtime-7.3.4.tgz
+129 warn retry will retry, error on last attempt: Error: fetch failed with status code 404
+130 info retry fetch attempt 3 at 4:27:45 PM
+131 info attempt registry request try #1 at 4:27:45 PM
+132 http fetch GET http://cd.smartface.io/nexus/content/repositories/npmjs/@babel/runtime/-/runtime-7.3.4.tgz
+133 http fetch 404 http://cd.smartface.io/nexus/content/repositories/npmjs/@babel/runtime/-/runtime-7.3.4.tgz
+134 error fetch failed http://cd.smartface.io/nexus/content/repositories/npmjs/@babel/runtime/-/runtime-7.3.4.tgz
+135 silly rollbackFailedOptional Starting
+136 silly rollbackFailedOptional Finishing
+137 silly runTopLevelLifecycles Finishing
+138 silly install printInstalled
+139 verbose stack Error: fetch failed with status code 404
+139 verbose stack     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.9.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/fetch.js:51:14)
+139 verbose stack     at emitOne (events.js:96:13)
+139 verbose stack     at Request.emit (events.js:188:7)
+139 verbose stack     at Request.onRequestResponse (/home/ubuntu/.nvm/versions/node/v6.9.2/lib/node_modules/npm/node_modules/request/request.js:954:10)
+139 verbose stack     at emitOne (events.js:96:13)
+139 verbose stack     at ClientRequest.emit (events.js:188:7)
+139 verbose stack     at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:474:21)
+139 verbose stack     at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+139 verbose stack     at Socket.socketOnData (_http_client.js:363:20)
+139 verbose stack     at emitOne (events.js:96:13)
+140 verbose cwd /home/ubuntu/workspace/scripts
+141 error Linux 4.4.0-75-generic
+142 error argv "/home/ubuntu/.nvm/versions/node/v6.9.2/bin/node" "/home/ubuntu/.nvm/versions/node/v6.9.2/bin/npm" "i" "-S" "final-form"
+143 error node v6.9.2
+144 error npm  v3.10.9
+145 error fetch failed with status code 404
+146 error If you need help, you may report this error at:
+146 error     <https://github.com/npm/npm/issues>
+147 verbose exit [ 1, true ]

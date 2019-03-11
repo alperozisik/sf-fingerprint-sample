@@ -1,0 +1,285 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "84fc-33fa-cd7d-b940",
+			"initialized": true,
+			"props": {
+				"children": [
+					"a284-6ca6-a0a4-53b3",
+					"3d21-47bf-4dc9-a079",
+					"5295-c522-d1f4-6c0b",
+					"3f5c-3c83-86ee-641a",
+					"70d1-0b53-c62f-9d84"
+				],
+				"name": "pgLogin",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "6.14.2"
+		},
+		{
+			"className": ".statusBar",
+			"id": "a284-6ca6-a0a4-53b3",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "84fc-33fa-cd7d-b940"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".headerBar",
+			"id": "3d21-47bf-4dc9-a079",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "84fc-33fa-cd7d-b940",
+				"title": "Login"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Login"
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "5295-c522-d1f4-6c0b",
+			"props": {
+				"autoHeight": 54.54545454545454,
+				"children": [],
+				"name": "imgLogo",
+				"parent": "84fc-33fa-cd7d-b940"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 54.54545454545454,
+				"height": null,
+				"image": "smartface.png"
+			}
+		},
+		{
+			"className": ".sf-scrollView",
+			"id": "3f5c-3c83-86ee-641a",
+			"props": {
+				"children": [
+					"6db7-7ede-bf6e-5b93",
+					"0104-d05a-0a9e-8772",
+					"ec7a-a3c4-7e8b-e349",
+					"edb2-cdef-fb80-057f"
+				],
+				"name": "svMain",
+				"parent": "84fc-33fa-cd7d-b940",
+				"usePageVariable": true
+			},
+			"type": "ScrollView",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": 56,
+				"layout": {
+					"paddingTop": 10,
+					"paddingBottom": 10,
+					"paddingLeft": 10,
+					"paddingRight": 10,
+					"flexProps": {
+						"alignItems": "STRETCH",
+						"justifyContent": "CENTER"
+					}
+				},
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .formRow",
+			"id": "6db7-7ede-bf6e-5b93",
+			"props": {
+				"children": [
+					"fd01-6e18-7ab0-e7c3"
+				],
+				"name": "flUsername",
+				"parent": "3f5c-3c83-86ee-641a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textBox .formItem",
+			"id": "fd01-6e18-7ab0-e7c3",
+			"props": {
+				"autoWidth": 6.3352272727272725,
+				"children": [],
+				"hint": "Username",
+				"isPassword": false,
+				"name": "tbUsername",
+				"parent": "6db7-7ede-bf6e-5b93",
+				"usePageVariable": true
+			},
+			"type": "TextBox",
+			"userProps": {
+				"autoWidth": 6.3352272727272725,
+				"hint": "Username",
+				"isPassword": false,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .formRow",
+			"id": "0104-d05a-0a9e-8772",
+			"props": {
+				"children": [
+					"c379-f9b3-8cd1-db17"
+				],
+				"name": "flPassword",
+				"parent": "3f5c-3c83-86ee-641a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textBox .formItem",
+			"id": "c379-f9b3-8cd1-db17",
+			"props": {
+				"autoWidth": 15.880681818181817,
+				"children": [],
+				"hint": "Password",
+				"isPassword": true,
+				"name": "tbPassword",
+				"parent": "0104-d05a-0a9e-8772",
+				"usePageVariable": true
+			},
+			"type": "TextBox",
+			"userProps": {
+				"autoWidth": 15.880681818181817,
+				"hint": "Password",
+				"isPassword": true,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .formRow",
+			"id": "ec7a-a3c4-7e8b-e349",
+			"props": {
+				"children": [
+					"1aa1-355d-5f30-e4e4",
+					"8c64-2757-3ab0-0787"
+				],
+				"name": "flRememberMe",
+				"parent": "3f5c-3c83-86ee-641a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .formItem",
+			"hiddenComponent": false,
+			"id": "1aa1-355d-5f30-e4e4",
+			"props": {
+				"autoWidth": 121.78977272727272,
+				"children": [],
+				"name": "lblRememberMe",
+				"parent": "ec7a-a3c4-7e8b-e349",
+				"text": "Remember Me"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoWidth": 121.78977272727272,
+				"text": "Remember Me"
+			}
+		},
+		{
+			"className": ".sf-switch",
+			"id": "8c64-2757-3ab0-0787",
+			"props": {
+				"children": [],
+				"name": "swRememberMe",
+				"parent": "ec7a-a3c4-7e8b-e349",
+				"toggle": true,
+				"usePageVariable": true
+			},
+			"type": "Switch",
+			"userProps": {
+				"toggle": true,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .formRow",
+			"id": "edb2-cdef-fb80-057f",
+			"props": {
+				"children": [
+					"3a21-4124-4ce6-e697",
+					"e567-e010-d102-839f"
+				],
+				"name": "flUseFingerprint",
+				"parent": "3f5c-3c83-86ee-641a",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .formItem",
+			"hiddenComponent": false,
+			"id": "3a21-4124-4ce6-e697",
+			"props": {
+				"autoWidth": 138.21022727272725,
+				"children": [],
+				"name": "lblUseFingerprint",
+				"parent": "edb2-cdef-fb80-057f",
+				"text": "User Fingerprint"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoWidth": 138.21022727272725,
+				"text": "User Fingerprint"
+			}
+		},
+		{
+			"className": ".sf-switch",
+			"id": "e567-e010-d102-839f",
+			"props": {
+				"children": [],
+				"name": "swUseFingerprint",
+				"parent": "edb2-cdef-fb80-057f",
+				"toggle": true,
+				"usePageVariable": true
+			},
+			"type": "Switch",
+			"userProps": {
+				"toggle": true,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "70d1-0b53-c62f-9d84",
+			"props": {
+				"autoHeight": 51.92307692307692,
+				"children": [],
+				"name": "btnLogin",
+				"parent": "84fc-33fa-cd7d-b940",
+				"text": "Login",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"autoHeight": 51.92307692307692,
+				"marginBottom": 5,
+				"marginLeft": 10,
+				"marginRight": 10,
+				"marginTop": 0,
+				"text": "Login",
+				"usePageVariable": true
+			}
+		}
+	]
+}
